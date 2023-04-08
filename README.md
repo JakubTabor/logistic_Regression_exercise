@@ -7,3 +7,4 @@
 # Now i have my "df_with_dummies" saved """pd.concat([subdf,salary_dummies],axis='columns')"""
 # And i can drop colum "salary" """df_with_dummies.drop('salary',axis='columns',inplace=True)""" 
 # I save my "df_with_dummies" on "X" and "df.left" on "y". So I can make "train_test_plit" method on my "X" and "y"
+# Then i get "LogisticRegression" model and train my data """model.fit(X_train,y_train)"""
